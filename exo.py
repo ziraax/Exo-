@@ -14,9 +14,9 @@ def Valeur_Pi(e):
     i+=1
   print(4*s2)
 def racine_carre(x,e):
-  A=1 # on met dans A la valeur U0=1
-  B=(A+x/A)/2 # on met dans B la valeur U1    
-  while abs(A-B)/2>e: # on cherche la valeur de A=Un telque A=Un preque égale à B=U{n+1}
+  A=1 
+  B=(A+x/A)/2 
+  while abs(A-B)/2>e: 
     A=B
     B=(A+x/A)/2
   return B
